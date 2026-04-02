@@ -172,6 +172,15 @@
     // Welcome Page
     "welcomePage.background": "#163732"
   },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "function": "#d8c5a7",
+        "function:declaration": "#c1d1e3",
+        "function:definition": "#c1d1e3",
+        "method": "#d8c5a7",
+        "method:declaration": "#c1d1e3",
+        "method:definition": "#c1d1e3"
+    },
     "tokenColors": [
         {
             "scope": "comment, punctuation.definition.comment",
@@ -241,15 +250,21 @@
             }
         },
         {
-            "scope": "meta.block",
+            "scope": "meta.block, meta.body",
             "settings": {
                 "foreground": "#d8c5a7"
             }
         },
         {
-            "scope": "entity.name.function, entity.name.method, support.function, meta.function-call, meta.require",
+            "scope": "entity.name.function.definition",
             "settings": {
                 "foreground": "#c1d1e3"
+            }
+        },
+        {
+            "scope": "entity.name, entity.name.function.call, entity.name.method, support.function, meta.function-call, meta.require, meta.parens, entity.name.scope-resolution",
+            "settings": {
+                "foreground": "#d8c5a7"
             }
         },
         {
