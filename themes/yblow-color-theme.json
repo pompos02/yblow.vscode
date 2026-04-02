@@ -189,7 +189,7 @@
             }
         },
         {
-            "scope": "string",
+            "scope": "string, punctuation.definition.string",
             "settings": {
                 "foreground": "#2ea87e"
             }
