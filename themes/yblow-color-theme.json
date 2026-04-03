@@ -174,27 +174,28 @@
   },
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "type": "#8CDE94",
         "function": "#d8c5a7",
         "function:declaration": "#c1d1e3",
         "function:definition": "#c1d1e3",
         "method": "#d8c5a7",
         "method:declaration": "#c1d1e3",
         "method:definition": "#c1d1e3"
-    },
-    "tokenColors": [
-        {
-            "scope": "comment, punctuation.definition.comment",
-            "settings": {
-                "foreground": "#21d813"
-            }
         },
-        {
-            "scope": "string, punctuation.definition.string",
-            "settings": {
-                "foreground": "#2ea87e"
-            }
-        },
-        {
+        "tokenColors": [
+            {
+                "scope": "comment, punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#21d813"
+                }
+            },
+            {
+                "scope": "string, punctuation.definition.string",
+                "settings": {
+                    "foreground": "#2ea87e"
+                }
+            },
+            {
             "scope": "constant, constant.numeric, constant.character, constant.language, constant.other.symbol, constant.character.escape, support.constant",
             "settings": {
                 "foreground": "#7ad0c6"
@@ -204,11 +205,10 @@
             "scope": "keyword, keyword.control, keyword.other.special-method, token.package.keyword",
             "settings": {
                 "foreground": "#ffffff",
-                "fontStyle": "bold"
             }
         },
         {
-            "scope": "keyword.control.directive.include, meta.preprocessor.include.cpp, punctuation.definition.directive, meta.preprocessor.include.cpp",
+            "scope": "keyword.control.directive.define, keyword.control.directive.include, meta.preprocessor.include.cpp, punctuation.definition.directive, meta.preprocessor.include.cpp",
             "settings": {
                 "foreground": "#8cde94",
             }
